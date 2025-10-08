@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: jeb [dot] thomasmitchell [at] mail [dot] utoronto [dot] ca
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    Email: jeb [dot] thomasmitchell [at] mail [dot] utoronto [dot] ca
+  more_info: 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
