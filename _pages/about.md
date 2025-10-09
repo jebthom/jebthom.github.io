@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: jeb [dot] thomasmitchell [at] mail [dot] utoronto [dot] ca
+subtitle: Email - jebthomas [at] cs [dot] toronto [dot] edu
 
 profile:
   align: right
