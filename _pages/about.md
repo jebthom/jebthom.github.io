@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: 
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -23,10 +23,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am an HCI/AI MSc student under Professor [Fanny Chevalier](http://fannychevalier.net/) at the University of Toronto. I also completed my BSc in Computer Science at the University of Toronto with a focus on artificial intelligence. 
 
-My research focuses on understanding and enhancing human-AI creative collaborations through novel interface and interaction designs, with particular emphasis on protecting users' agency, ownership, and trust in AI-assisted creative work. 
+I am an HCI/AI MSc student under Professor [Fanny Chevalier](http://fannychevalier.net/) at the University of Toronto. I also completed my BSc in Computer Science at the University of Toronto with a focus on artificial intelligence.
 
+My research focuses on understanding and enhancing human-AI creative collaborations through novel interface and interaction designs, with particular emphasis on protecting users' agency, ownership, and trust in AI-assisted creative work.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
