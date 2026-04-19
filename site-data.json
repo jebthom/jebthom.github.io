@@ -12,14 +12,14 @@
 
   "socials": [
     { "label": "Email",   "href": "mailto:jeb.thomasmitchell@mail.utoronto.ca" },
-    { "label": "Scholar", "href": "https://scholar.google.com/citations?user=YOUR_ID" },
+    { "label": "Scholar", "href": "https://scholar.google.com/citations?user=atzVPm8AAAAJ&hl=en" },
     { "label": "GitHub",  "href": "https://github.com/jebthom" }
   ],
 
   "news": [
-    { "date": "2026", "text": "Paper at CHI\u202626: \u201cWhere Do I \u2018Add the Egg\u2019?\u201d \u2014 agency & ownership in AI co-writing." },
-    { "date": "2025", "text": "Paper at CSCW\u202625: co-writing with AI, aligning research with user demands." },
-    { "date": "2025", "text": "Published at DataEd\u202625: help-seeking with LLMs vs. web search for SQL." }
+    { "date": "Apr 16 2026", "text": "Presented our paper at CHI '26 in Barcelona: \u201cWhere Do I \u2018Add the Egg\u2019?\u201d" },
+    { "date": "Apr 15 2026", "text": "Took part in the Herding CATS workshop at CHI '26 with our position paper: Bridging Workspace Awareness and Creative Activity Traces" },
+    { "date": "Oct 21 2025", "text": "Presented our paper at CSCW '25 in Bergen: Co-writing with AI, on Human Terms." },
   ],
 
   "papers": [
@@ -69,27 +69,41 @@
     }
   ],
 
-  "researchBlurb": "Publications on human-AI creative collaboration, co-writing systems, and human-computer interaction. Each entry links to its PDF.",
+  "researchBlurb": "Publications on human-AI creative collaboration, co-writing systems, and human-computer interaction.",
 
   "teaching": {
     "blurb": [
-      "As a graduate student, I have been involved in teaching and TA work across several courses in computer science and HCI at the University of Toronto. My focus is on helping students build practical skills in research methods, interactive systems design, and working with AI tools thoughtfully.",
-      "More details on specific courses and TA positions coming soon. If you\u2019re a UofT student interested in HCI research, feel free to reach out."
+      "As a graduate student, I have been involved in teaching and TA work across several courses in computer science and HCI at the University of Toronto. My philosophy centres on helping students build their self-efficacy and creativity through a positive and inclusive environment.",
+      "If you\u2019re a UofT student with questions about grad school or HCI research, feel free to reach out."
     ],
     "items": [
       {
-        "code": "MSc",
-        "title": "HCI/AI Research",
-        "blurb": "MSc student under Prof. Fanny Chevalier, studying human-AI creative collaboration and interface design.",
+        "code": "CSC318",
+        "title": "The Design of Interactive Computational Media",
+        "blurb": "Led a studio of six teams engaging in semester-length course projects learning user-centred design principles.",
         "institution": "University of Toronto",
-        "status": "Current"
+        "status": "Winter 2026"
       },
       {
-        "code": "BSc",
-        "title": "Computer Science",
-        "blurb": "BSc in Computer Science with a focus on artificial intelligence.",
+        "code": "PRISM",
+        "title": "Preparation for Research through Immersion, Skills, and Mentorship",
+        "blurb": "Mentored two groups of students learning about and practicing CS research skills.",
         "institution": "University of Toronto",
-        "status": "Completed"
+        "status": "Winter 2026"
+      },
+      {
+        "code": "CSC110",
+        "title": "Foundations of Computer Science I",
+        "blurb": "Led a tutorial focusing on weekly quizzes on programming, logic, and number theory.",
+        "institution": "University of Toronto",
+        "status": "Fall 2025"
+      },
+      {
+        "code": "CSC1500",
+        "title": "Fundamentals of Teaching CS in Higher Education",
+        "blurb": "Learned applied practices and literature-based principles for university-level CS teaching.",
+        "institution": "University of Toronto",
+        "status": "Fall 2025"
       }
     ]
   },
