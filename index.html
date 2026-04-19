@@ -206,21 +206,25 @@
     /* ── Responsive ── */
     @media (max-width: 900px) {
       .home-grid { grid-template-columns: 1fr; }
+      .home-grid .blob-wrap { order: -1; }
       .home-name { font-size: 64px; }
       .home-bottom { grid-template-columns: 1fr; }
       .page-header h1 { font-size: 52px; }
       .projects-grid { grid-template-columns: repeat(2, 1fr); }
       .course-row { grid-template-columns: 80px 1fr; }
       .course-level, .course-meta { display: none; }
-      .top-nav { padding: 14px 20px; flex-wrap: wrap; gap: 10px; }
+      .top-nav { padding: 10px 16px; flex-wrap: wrap; gap: 6px; }
+      .nav-brand { font-size: 16px; }
+      .nav-pill { font-size: 13px; padding: 6px 14px; }
       .nav-email { display: none; }
-      .page { padding: 30px 24px 40px; }
+      .page { padding: 20px 24px 40px; }
       .site-footer { padding: 20px 24px; }
     }
     @media (max-width: 600px) {
       .home-name { font-size: 48px; }
       .projects-grid { grid-template-columns: 1fr 1fr; }
       .nav-pills { flex-wrap: wrap; }
+      .nav-pill { font-size: 12px; padding: 5px 12px; }
     }
   </style>
 </head>
@@ -368,7 +372,7 @@ fetch('site-data.json').then(function(r){return r.json();}).then(function(S) {
 
   // ════════════════ HOME ════════════════
   html += '<div class="page" id="page-home">';
-  html += '<div class="home-grid"><div>';
+  html += '<div class="home-grid"><div class="home-text-col">';
   html += '<div class="home-name t-display">Jeb<br>Thomas-<wbr>Mitchell<span class="dot">.</span></div>';
   html += '<div class="home-bio t-body">';
   S.bio.forEach(function(p){ html += '<p>'+p+'</p>'; });
