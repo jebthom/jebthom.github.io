@@ -77,8 +77,14 @@
 
     /* ── Home layout ── */
     .home-grid {
-      display: grid; grid-template-columns: 1fr 1.15fr; gap: 60px; align-items: start;
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      grid-template-areas: "text blob" "text bottom";
+      gap: 60px; align-items: start;
     }
+    .home-text-col { grid-area: text; }
+    .home-grid .blob-wrap { grid-area: blob; }
+    .home-bottom { grid-area: bottom; }
     .home-name { font-size: 110px; line-height: 0.9; letter-spacing: -0.02em; }
     .home-name .dot { color: var(--sage); }
     .home-bio p { font-size: 18px; line-height: 1.55; margin-top: 14px; max-width: 600px; opacity: 0.9; }
@@ -86,7 +92,7 @@
     .home-bio a { color: var(--sage); }
     .home-papers-label { opacity: 0.7; margin-bottom: 8px; }
     .home-bottom {
-      margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;
+      margin-top: 40px; display: grid; grid-template-columns: 1fr; gap: 32px; align-items: start;
     }
 
     /* ── Blob canvas ── */
@@ -205,7 +211,7 @@
 
     /* ── Responsive ── */
     @media (max-width: 900px) {
-      .home-grid { grid-template-columns: 1fr; gap: 20px; }
+      .home-grid { grid-template-columns: 1fr; grid-template-areas: none; gap: 20px; }
       .home-grid .blob-wrap { order: -1; }
       .home-name { font-size: 64px; }
       .home-bottom { grid-template-columns: 1fr; }
@@ -394,7 +400,6 @@ fetch('site-data.json').then(function(r){return r.json();}).then(function(S) {
     + '</svg>'
     + '<div class="headshot-overlay" style="left:30%;top:20%;width:61%;height:55%;transform:translate(3.53%,-7.66%);">'
     + '<img src="'+S.headshot+'" alt="'+S.name+' headshot"></div></div>';
-  html += '</div>';
 
   // Bottom section: Elsewhere + Bulletin
   html += '<section class="home-bottom"><div>';
@@ -408,7 +413,7 @@ fetch('site-data.json').then(function(r){return r.json();}).then(function(S) {
   S.news.forEach(function(n){
     html += '<div class="bulletin-item t-body"><span class="t-mono bulletin-date">'+n.date+'</span>'+n.text+'</div>';
   });
-  html += '</div></section></div>';
+  html += '</div></section></div></div>';
 
   // ════════════════ RESEARCH ════════════════
   html += '<div class="page page-dark" id="page-research">';
