@@ -19,7 +19,7 @@
   "news": [
     { "date": "Apr 16 2026", "text": "Presented our paper at CHI '26 in Barcelona: \u201cWhere Do I \u2018Add the Egg\u2019?\u201d" },
     { "date": "Apr 15 2026", "text": "Took part in the Herding CATS workshop at CHI '26 with our position paper: Bridging Workspace Awareness and Creative Activity Traces" },
-    { "date": "Oct 21 2025", "text": "Presented our paper at CSCW '25 in Bergen: Co-writing with AI, on Human Terms." },
+    { "date": "Oct 21 2025", "text": "Presented our paper at CSCW '25 in Bergen: Co-writing with AI, on Human Terms." }
   ],
 
   "papers": [
@@ -101,7 +101,7 @@
       {
         "code": "CSC1500",
         "title": "Fundamentals of Teaching CS in Higher Education",
-        "blurb": "Learned applied practices and literature-based principles for university-level CS teaching.",
+        "blurb": "Graduate course where I learned applied practices and literature-based principles for university-level CS teaching.",
         "institution": "University of Toronto",
         "status": "Fall 2025"
       }
