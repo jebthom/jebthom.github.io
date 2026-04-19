@@ -1,7 +1,7 @@
 {
   "name": "Jeb Thomas-Mitchell",
   "email": "jebthomas@cs.toronto.edu",
-  "contactEmail": "jeb.thomasmitchell@mail.utoronto.ca",
+  "contactEmail": "jebthomas@cs.toronto.edu",
   "affiliation": "University of Toronto",
   "headshot": "assets/img/prof_pic.jpg",
 
@@ -11,7 +11,7 @@
   ],
 
   "socials": [
-    { "label": "Email",   "href": "mailto:jeb.thomasmitchell@mail.utoronto.ca" },
+    { "label": "Email",   "href": "mailto:jebthomas@cs.toronto.edu" },
     { "label": "Scholar", "href": "https://scholar.google.com/citations?user=atzVPm8AAAAJ&hl=en" },
     { "label": "GitHub",  "href": "https://github.com/jebthom" }
   ],
