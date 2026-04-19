@@ -43,13 +43,14 @@
 
     /* ── Nav ── */
     .top-nav {
-      position: sticky; top: 0; z-index: 100;
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       padding: 18px 40px;
       display: flex; justify-content: space-between; align-items: center;
       backdrop-filter: blur(10px);
       background: rgba(0,0,0,0.12);
       border-bottom: 1px solid rgba(243,239,228,0.12);
     }
+    .theme-root { padding-top: 62px; }
     .nav-brand { font-size: 20px; color: var(--cream); }
     .nav-brand .dot { color: var(--sage); }
     .nav-pills { display: flex; gap: 8px; }
@@ -269,6 +270,7 @@
               <div class="paper-links">
                 <a href="assets/pdf/egg.pdf" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">PDF ↗</a>
                 <a href="https://arxiv.org/abs/2509.15440" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">arXiv ↗</a>
+                <a href="https://dl.acm.org/doi/10.1145/3772318.3791952" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">ACM ↗</a>
               </div>
             </div>
             <div class="t-display arrow">↗</div>
@@ -293,6 +295,7 @@
               <div class="paper-links">
                 <a href="assets/pdf/cowriting.pdf" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">PDF ↗</a>
                 <a href="https://arxiv.org/abs/2504.12488" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">arXiv ↗</a>
+                <a href="https://dl.acm.org/doi/10.1145/3757566" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">ACM ↗</a>
               </div>
             </div>
             <div class="t-display arrow">↗</div>
@@ -313,6 +316,7 @@
               <div class="t-body authors">Kumar, H., Reza, M., Thomas-Mitchell, J., Musabirov, I., Zhang, L., Liut, M.</div>
               <div class="paper-links">
                 <a href="assets/pdf/understanding.pdf" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">PDF ↗</a>
+                <a href="https://dl.acm.org/doi/10.1145/3735091.3737569" class="link-pill" style="background:rgba(243,239,228,0.1);color:var(--cream);border:1px solid rgba(243,239,228,0.08);">ACM ↗</a>
               </div>
             </div>
             <div class="t-display arrow">↗</div>
@@ -424,6 +428,7 @@
           <div class="paper-links">
             <a href="assets/pdf/egg.pdf" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">PDF ↗</a>
             <a href="https://arxiv.org/abs/2509.15440" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">arXiv ↗</a>
+            <a href="https://dl.acm.org/doi/10.1145/3772318.3791952" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">ACM ↗</a>
           </div>
         </div>
         <div class="t-display arrow">↗</div>
@@ -448,6 +453,7 @@
           <div class="paper-links">
             <a href="assets/pdf/cowriting.pdf" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">PDF ↗</a>
             <a href="https://arxiv.org/abs/2504.12488" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">arXiv ↗</a>
+            <a href="https://dl.acm.org/doi/10.1145/3757566" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">ACM ↗</a>
           </div>
         </div>
         <div class="t-display arrow">↗</div>
@@ -468,6 +474,7 @@
           <div class="t-body authors">Kumar, H., Reza, M., Thomas-Mitchell, J., Musabirov, I., Zhang, L., Liut, M.</div>
           <div class="paper-links">
             <a href="assets/pdf/understanding.pdf" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">PDF ↗</a>
+            <a href="https://dl.acm.org/doi/10.1145/3735091.3737569" class="link-pill" style="background:rgba(31,58,50,0.1);color:var(--forest-dk);border:1px solid rgba(20,38,31,0.08);">ACM ↗</a>
           </div>
         </div>
         <div class="t-display arrow">↗</div>
@@ -616,8 +623,8 @@
 
   const PAGE_BG = { home: '#1F3A32', research: '#AFCDDD', teaching: '#9CC5B2', projects: '#D98E62' };
   const PAGE_FG = { home: '#F3EFE4', research: '#14261F', teaching: '#14261F', projects: '#14261F' };
-  const PILL_BG = { home: '#14261F', research: '#AFCDDD', teaching: '#9CC5B2', projects: '#D98E62' };
-  const PILL_FG = { home: '#F3EFE4', research: '#14261F', teaching: '#14261F', projects: '#14261F' };
+  const PILL_COLOR = { home: '#14261F', research: '#AFCDDD', teaching: '#9CC5B2', projects: '#D98E62' };
+  const PILL_FG_FILLED = { home: '#F3EFE4', research: '#14261F', teaching: '#14261F', projects: '#14261F' };
 
   function setPage(pageId) {
     // Update background & text color
@@ -636,19 +643,35 @@
     var target = document.getElementById('page-' + pageId);
     if (target) target.classList.add('active');
 
-    // Update pills
+    // Update pills — colored design: each pill always shows its page color,
+    // active pill is filled, inactive pills are outlined with their color.
     pills.forEach(pill => {
       var id = pill.getAttribute('data-page');
       if (id === pageId) {
-        pill.style.background = PILL_BG[id];
-        pill.style.color = PILL_FG[id];
-        pill.style.borderColor = PILL_BG[id];
+        pill.style.background = PILL_COLOR[id];
+        pill.style.color = PILL_FG_FILLED[id];
+        pill.style.borderColor = PILL_COLOR[id];
+      } else {
+        pill.style.background = 'transparent';
+        pill.style.color = PILL_COLOR[id];
+        pill.style.borderColor = PILL_COLOR[id];
+      }
+    });
+
+    /* --- Previous design: only active pill colored, rest neutral cream ---
+    pills.forEach(pill => {
+      var id = pill.getAttribute('data-page');
+      if (id === pageId) {
+        pill.style.background = PILL_COLOR[id];
+        pill.style.color = PILL_FG_FILLED[id];
+        pill.style.borderColor = PILL_COLOR[id];
       } else {
         pill.style.background = 'transparent';
         pill.style.color = '#F3EFE4';
         pill.style.borderColor = 'rgba(243,239,228,0.4)';
       }
     });
+    --- */
 
     // Persist
     try { localStorage.setItem('beautery_page', pageId); } catch(e) {}
