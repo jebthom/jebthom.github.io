@@ -25,7 +25,7 @@
   "papers": [
     {
       "year": 2026,
-      "venue": "CHI\u202626",
+      "venue": "CHI\u200926",
       "title": "Where Do I \u2018Add the Egg\u2019?: Exploring Agency and Ownership in AI Creative Co-Writing Systems",
       "authors": "Carrera, D., Thomas-Mitchell, J., Wigdor, D.",
       "links": {
@@ -40,7 +40,7 @@
     },
     {
       "year": 2025,
-      "venue": "CSCW\u202625",
+      "venue": "CSCW\u200925",
       "title": "Co-Writing with AI, on Human Terms: Aligning Research with User Demands Across the Writing Process",
       "authors": "Reza, M., Thomas-Mitchell, J., Dushniku, P., Laundry, N., Williams, J.J., Kuzminykh, A.",
       "links": {
@@ -55,7 +55,7 @@
     },
     {
       "year": 2025,
-      "venue": "DataEd\u202625",
+      "venue": "DataEd\u200925",
       "title": "Understanding Help-Seeking Behavior of Students Using LLMs vs. Web Search for Writing SQL Queries",
       "authors": "Kumar, H., Reza, M., Thomas-Mitchell, J., Musabirov, I., Zhang, L., Liut, M.",
       "links": {
