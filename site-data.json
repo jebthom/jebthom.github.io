@@ -78,6 +78,13 @@
     ],
     "items": [
       {
+        "code": "CSC108",
+        "title": "Introduction to Computer Programming",
+        "blurb": "In-class TA supporting students in an inverted lecture format.",
+        "institution": "University of Toronto",
+        "status": "Summer 2026"
+      },
+      {
         "code": "CSC318",
         "title": "The Design of Interactive Computational Media",
         "blurb": "Led a studio of six teams engaging in semester-length course projects learning user-centred design principles.",
